@@ -1,0 +1,8 @@
+This code will echo characters back on a serial port...
+at 9600 baud via a 6522 using hybrid hardware/software serial
+
+The serial data is read in (RxD) pin CB2 of the 6522
+The serial data is send out (TxD) pin PB0 of the 6522
+
+I *may* move Txd this to CA2 later, its just software, it 
+ can go anywhere, doesn't even have to be on the 6522.
